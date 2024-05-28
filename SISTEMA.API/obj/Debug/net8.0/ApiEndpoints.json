@@ -1,0 +1,76 @@
+[
+  {
+    "ContainingType": "SISTEMA.API.Controllers.LibroController",
+    "Method": "Editar",
+    "RelativePath": "api/Libro/Editar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "libro",
+        "Type": "ENTITY.Libro",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SISTEMA.API.Controllers.LibroController",
+    "Method": "Eliminar",
+    "RelativePath": "api/Libro/Eliminar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "libro",
+        "Type": "ENTITY.Libro",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SISTEMA.API.Controllers.LibroController",
+    "Method": "Guardar",
+    "RelativePath": "api/Libro/Guardar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "libro",
+        "Type": "ENTITY.Libro",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SISTEMA.API.Controllers.LibroController",
+    "Method": "ListarLibro",
+    "RelativePath": "api/Libro/ListarLibro",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SISTEMA.API.Controllers.LibroController",
+    "Method": "ListarLibro",
+    "RelativePath": "api/Libro/ListarLibro/Texto",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Texto",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

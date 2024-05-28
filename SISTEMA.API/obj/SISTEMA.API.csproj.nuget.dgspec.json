@@ -1,0 +1,295 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Dell-1\\Downloads\\API_GPO77-main\\API_GPO77-main\\SISTEMA.API\\SISTEMA.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Dell-1\\Downloads\\API_GPO77-main\\API_GPO77-main\\BLL\\BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Dell-1\\Downloads\\API_GPO77-main\\API_GPO77-main\\BLL\\BLL.csproj",
+        "projectName": "BLL",
+        "projectPath": "C:\\Users\\Dell-1\\Downloads\\API_GPO77-main\\API_GPO77-main\\BLL\\BLL.csproj",
+        "packagesPath": "C:\\Users\\Dell-1\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dell-1\\Downloads\\API_GPO77-main\\API_GPO77-main\\BLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dell-1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Dell-1\\Downloads\\API_GPO77-main\\API_GPO77-main\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\Dell-1\\Downloads\\API_GPO77-main\\API_GPO77-main\\DAL\\DAL.csproj"
+              },
+              "C:\\Users\\Dell-1\\Downloads\\API_GPO77-main\\API_GPO77-main\\ENTITY\\ENTITY.csproj": {
+                "projectPath": "C:\\Users\\Dell-1\\Downloads\\API_GPO77-main\\API_GPO77-main\\ENTITY\\ENTITY.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.1, )"
+            },
+            "Twilio": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Dell-1\\Downloads\\API_GPO77-main\\API_GPO77-main\\DAL\\DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Dell-1\\Downloads\\API_GPO77-main\\API_GPO77-main\\DAL\\DAL.csproj",
+        "projectName": "DAL",
+        "projectPath": "C:\\Users\\Dell-1\\Downloads\\API_GPO77-main\\API_GPO77-main\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\Dell-1\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dell-1\\Downloads\\API_GPO77-main\\API_GPO77-main\\DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dell-1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.35, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Dell-1\\Downloads\\API_GPO77-main\\API_GPO77-main\\ENTITY\\ENTITY.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Dell-1\\Downloads\\API_GPO77-main\\API_GPO77-main\\ENTITY\\ENTITY.csproj",
+        "projectName": "ENTITY",
+        "projectPath": "C:\\Users\\Dell-1\\Downloads\\API_GPO77-main\\API_GPO77-main\\ENTITY\\ENTITY.csproj",
+        "packagesPath": "C:\\Users\\Dell-1\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dell-1\\Downloads\\API_GPO77-main\\API_GPO77-main\\ENTITY\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dell-1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Dell-1\\Downloads\\API_GPO77-main\\API_GPO77-main\\SISTEMA.API\\SISTEMA.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Dell-1\\Downloads\\API_GPO77-main\\API_GPO77-main\\SISTEMA.API\\SISTEMA.API.csproj",
+        "projectName": "SISTEMA.API",
+        "projectPath": "C:\\Users\\Dell-1\\Downloads\\API_GPO77-main\\API_GPO77-main\\SISTEMA.API\\SISTEMA.API.csproj",
+        "packagesPath": "C:\\Users\\Dell-1\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dell-1\\Downloads\\API_GPO77-main\\API_GPO77-main\\SISTEMA.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dell-1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Dell-1\\Downloads\\API_GPO77-main\\API_GPO77-main\\BLL\\BLL.csproj": {
+                "projectPath": "C:\\Users\\Dell-1\\Downloads\\API_GPO77-main\\API_GPO77-main\\BLL\\BLL.csproj"
+              },
+              "C:\\Users\\Dell-1\\Downloads\\API_GPO77-main\\API_GPO77-main\\ENTITY\\ENTITY.csproj": {
+                "projectPath": "C:\\Users\\Dell-1\\Downloads\\API_GPO77-main\\API_GPO77-main\\ENTITY\\ENTITY.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "Twilio": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
